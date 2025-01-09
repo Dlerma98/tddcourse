@@ -85,6 +85,7 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Spatie\\LaravelPackageTools\\' => 27,
             'Spatie\\LaravelIgnition\\' => 23,
             'Spatie\\Ignition\\' => 16,
             'Spatie\\FlareClient\\' => 19,
@@ -179,6 +180,7 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'C' => 
         array (
             'Cron\\' => 5,
+            'Christophrumpel\\MissingLivewireAssertions\\' => 42,
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
@@ -326,6 +328,10 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'Spatie\\LaravelPackageTools\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-package-tools/src',
+        ),
         'Spatie\\LaravelIgnition\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/laravel-ignition/src',
@@ -364,8 +370,8 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -563,6 +569,10 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
+        'Christophrumpel\\MissingLivewireAssertions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/christophrumpel/missing-livewire-assertions/src',
+        ),
         'Carbon\\Doctrine\\' => 
         array (
             0 => __DIR__ . '/..' . '/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine',
@@ -609,7 +619,9 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'App\\Http\\Controllers\\PageCourseDetailsController' => __DIR__ . '/../..' . '/app/Http/Controllers/PageCourseDetailsController.php',
         'App\\Http\\Controllers\\PageDashboardController' => __DIR__ . '/../..' . '/app/Http/Controllers/PageDashboardController.php',
         'App\\Http\\Controllers\\PageHomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/PageHomeController.php',
+        'App\\Http\\Controllers\\PageVideosController' => __DIR__ . '/../..' . '/app/Http/Controllers/PageVideosController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
+        'App\\Http\\Livewire\\VideoPlayer' => __DIR__ . '/../..' . '/app/Http/Livewire/VideoPlayer.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => __DIR__ . '/../..' . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
@@ -623,6 +635,7 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'App\\Models\\PurchasedCourse' => __DIR__ . '/../..' . '/app/Models/PurchasedCourse.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\Video' => __DIR__ . '/../..' . '/app/Models/Video.php',
+        'App\\Models\\WatchedVideo' => __DIR__ . '/../..' . '/app/Models/WatchedVideo.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -791,6 +804,8 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'Carbon\\TranslatorImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/TranslatorImmutable.php',
         'Carbon\\TranslatorStrongTypeInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/TranslatorStrongTypeInterface.php',
+        'Christophrumpel\\MissingLivewireAssertions\\CustomLivewireAssertionsMixin' => __DIR__ . '/..' . '/christophrumpel/missing-livewire-assertions/src/CustomLivewireAssertionsMixin.php',
+        'Christophrumpel\\MissingLivewireAssertions\\MissingLivewireAssertionsServiceProvider' => __DIR__ . '/..' . '/christophrumpel/missing-livewire-assertions/src/MissingLivewireAssertionsServiceProvider.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
@@ -5406,6 +5421,10 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'Spatie\\LaravelIgnition\\Support\\StringComparator' => __DIR__ . '/..' . '/spatie/laravel-ignition/src/Support/StringComparator.php',
         'Spatie\\LaravelIgnition\\Views\\BladeSourceMapCompiler' => __DIR__ . '/..' . '/spatie/laravel-ignition/src/Views/BladeSourceMapCompiler.php',
         'Spatie\\LaravelIgnition\\Views\\ViewExceptionMapper' => __DIR__ . '/..' . '/spatie/laravel-ignition/src/Views/ViewExceptionMapper.php',
+        'Spatie\\LaravelPackageTools\\Commands\\InstallCommand' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Commands/InstallCommand.php',
+        'Spatie\\LaravelPackageTools\\Exceptions\\InvalidPackage' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Exceptions/InvalidPackage.php',
+        'Spatie\\LaravelPackageTools\\Package' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Package.php',
+        'Spatie\\LaravelPackageTools\\PackageServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/PackageServiceProvider.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\Attribute\\AsCommand' => __DIR__ . '/..' . '/symfony/console/Attribute/AsCommand.php',

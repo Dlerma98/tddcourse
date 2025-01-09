@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '6db0b1e57bd32a4ff26671daaf812a420234a344',
+        'reference' => '976631dfaf0c841b052446c3b8520ea74f4f60c8',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -34,6 +34,15 @@
             'reference' => '18ba5ddfec8976260ead6e866180bd5d2f71aa1d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../carbonphp/carbon-doctrine-types',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'christophrumpel/missing-livewire-assertions' => array(
+            'pretty_version' => 'v0.7.0',
+            'version' => '0.7.0.0',
+            'reference' => '8b0daaa42f2e3e2930a5df21e322295559a2024b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../christophrumpel/missing-livewire-assertions',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -439,7 +448,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '6db0b1e57bd32a4ff26671daaf812a420234a344',
+            'reference' => '976631dfaf0c841b052446c3b8520ea74f4f60c8',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -868,8 +877,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -1108,6 +1117,15 @@
             'install_path' => __DIR__ . '/../spatie/laravel-ignition',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'spatie/laravel-package-tools' => array(
+            'pretty_version' => '1.18.0',
+            'version' => '1.18.0.0',
+            'reference' => '8332205b90d17164913244f4a8e13ab7e6761d29',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../spatie/laravel-package-tools',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/console' => array(
             'pretty_version' => 'v6.4.15',
