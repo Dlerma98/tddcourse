@@ -85,6 +85,7 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Spatie\\LoginLink\\' => 17,
             'Spatie\\LaravelPackageTools\\' => 27,
             'Spatie\\LaravelIgnition\\' => 23,
             'Spatie\\Ignition\\' => 16,
@@ -327,6 +328,10 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Spatie\\LoginLink\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-login-link/src',
         ),
         'Spatie\\LaravelPackageTools\\' => 
         array (
@@ -830,6 +835,9 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'Database\\Factories\\CourseFactory' => __DIR__ . '/../..' . '/database/factories/CourseFactory.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Factories\\VideoFactory' => __DIR__ . '/../..' . '/database/factories/VideoFactory.php',
+        'Database\\Seeders\\AddGivenCoursesSeeder' => __DIR__ . '/../..' . '/database/seeders/AddGivenCoursesSeeder.php',
+        'Database\\Seeders\\AddGivenVideosSeeder' => __DIR__ . '/../..' . '/database/seeders/AddGivenVideosSeeder.php',
+        'Database\\Seeders\\AddLocalTestUserSeeder' => __DIR__ . '/../..' . '/database/seeders/AddLocalTestUserSeeder.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'DateError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
         'DateException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateException.php',
@@ -5425,6 +5433,13 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'Spatie\\LaravelPackageTools\\Exceptions\\InvalidPackage' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Exceptions/InvalidPackage.php',
         'Spatie\\LaravelPackageTools\\Package' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Package.php',
         'Spatie\\LaravelPackageTools\\PackageServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/PackageServiceProvider.php',
+        'Spatie\\LoginLink\\Exceptions\\DidNotFindUserToLogIn' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/Exceptions/DidNotFindUserToLogIn.php',
+        'Spatie\\LoginLink\\Exceptions\\InvalidUserClass' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/Exceptions/InvalidUserClass.php',
+        'Spatie\\LoginLink\\Exceptions\\NotAllowedInCurrentEnvironment' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/Exceptions/NotAllowedInCurrentEnvironment.php',
+        'Spatie\\LoginLink\\Http\\Components\\LoginLinkComponent' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/Http/Components/LoginLinkComponent.php',
+        'Spatie\\LoginLink\\Http\\Controllers\\LoginLinkController' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/Http/Controllers/LoginLinkController.php',
+        'Spatie\\LoginLink\\Http\\Requests\\LoginLinkRequest' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/Http/Requests/LoginLinkRequest.php',
+        'Spatie\\LoginLink\\LoginLinkServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/LoginLinkServiceProvider.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\Attribute\\AsCommand' => __DIR__ . '/..' . '/symfony/console/Attribute/AsCommand.php',

@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '976631dfaf0c841b052446c3b8520ea74f4f60c8',
+        'reference' => '8d048d657c1f08f8e4f01562e276d09ce9ee7a75',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -448,7 +448,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '976631dfaf0c841b052446c3b8520ea74f4f60c8',
+            'reference' => '8d048d657c1f08f8e4f01562e276d09ce9ee7a75',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1117,6 +1117,15 @@
             'install_path' => __DIR__ . '/../spatie/laravel-ignition',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'spatie/laravel-login-link' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => 'eef5ecae089aec22018ed5d88e4225babbceb6b2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../spatie/laravel-login-link',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'spatie/laravel-package-tools' => array(
             'pretty_version' => '1.18.0',
