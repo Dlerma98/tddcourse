@@ -46,6 +46,7 @@ it('shows course video count', function () {
 
 it('includes paddle checkout button', function () {
     // Arrange
+    config()->set('services.paddle.vendor-id', 'vendor-id');
     $course = Course::factory()
         ->released()
         ->create([
