@@ -85,6 +85,7 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Spatie\\WebhookClient\\' => 21,
             'Spatie\\LoginLink\\' => 17,
             'Spatie\\LaravelPackageTools\\' => 27,
             'Spatie\\LaravelIgnition\\' => 23,
@@ -328,6 +329,10 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Spatie\\WebhookClient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src',
         ),
         'Spatie\\LoginLink\\' => 
         array (
@@ -5440,6 +5445,23 @@ class ComposerStaticInite9a428e52ec772168eacd7d417d0ac79
         'Spatie\\LoginLink\\Http\\Controllers\\LoginLinkController' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/Http/Controllers/LoginLinkController.php',
         'Spatie\\LoginLink\\Http\\Requests\\LoginLinkRequest' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/Http/Requests/LoginLinkRequest.php',
         'Spatie\\LoginLink\\LoginLinkServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-login-link/src/LoginLinkServiceProvider.php',
+        'Spatie\\WebhookClient\\Events\\InvalidWebhookSignatureEvent' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Events/InvalidWebhookSignatureEvent.php',
+        'Spatie\\WebhookClient\\Exceptions\\InvalidConfig' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Exceptions/InvalidConfig.php',
+        'Spatie\\WebhookClient\\Exceptions\\InvalidMethod' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Exceptions/InvalidMethod.php',
+        'Spatie\\WebhookClient\\Exceptions\\InvalidWebhookSignature' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Exceptions/InvalidWebhookSignature.php',
+        'Spatie\\WebhookClient\\Http\\Controllers\\WebhookController' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Http/Controllers/WebhookController.php',
+        'Spatie\\WebhookClient\\Jobs\\ProcessWebhookJob' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Jobs/ProcessWebhookJob.php',
+        'Spatie\\WebhookClient\\Models\\WebhookCall' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Models/WebhookCall.php',
+        'Spatie\\WebhookClient\\SignatureValidator\\DefaultSignatureValidator' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/SignatureValidator/DefaultSignatureValidator.php',
+        'Spatie\\WebhookClient\\SignatureValidator\\SignatureValidator' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/SignatureValidator/SignatureValidator.php',
+        'Spatie\\WebhookClient\\WebhookClientServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookClientServiceProvider.php',
+        'Spatie\\WebhookClient\\WebhookConfig' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookConfig.php',
+        'Spatie\\WebhookClient\\WebhookConfigRepository' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookConfigRepository.php',
+        'Spatie\\WebhookClient\\WebhookProcessor' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProcessor.php',
+        'Spatie\\WebhookClient\\WebhookProfile\\ProcessEverythingWebhookProfile' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProfile/ProcessEverythingWebhookProfile.php',
+        'Spatie\\WebhookClient\\WebhookProfile\\WebhookProfile' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProfile/WebhookProfile.php',
+        'Spatie\\WebhookClient\\WebhookResponse\\DefaultRespondsTo' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookResponse/DefaultRespondsTo.php',
+        'Spatie\\WebhookClient\\WebhookResponse\\RespondsToWebhook' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookResponse/RespondsToWebhook.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\Attribute\\AsCommand' => __DIR__ . '/..' . '/symfony/console/Attribute/AsCommand.php',

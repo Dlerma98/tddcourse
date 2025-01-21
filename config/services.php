@@ -31,8 +31,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'paddle' => [
-      'vendor-id' => env('PADDLE_VENDOR_ID'),
+        'vendor-id' => env('PADDLE_VENDOR_ID'),
+        'public-key' => env('PADDLE_PUBLIC_KEY'),
         'notification-endpoint-secret-key' => env('PADDLE_NOTIFICATION_ENDPOINT_SECRET_KEY'),
     ],
-
 ];
