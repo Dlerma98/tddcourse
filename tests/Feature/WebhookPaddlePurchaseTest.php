@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Jobs\HandlePaddlePurchaseJob;
 use Illuminate\Support\Carbon;
 use Spatie\WebhookClient\Models\WebhookCall;
 use function Pest\Laravel\assertDatabaseCount;
@@ -50,14 +51,26 @@ it('does not store invalid paddle purchase request', function () {
 
 it('dispatches a job for a valid paddle request', function () {
     //Arrage
+    Queue::fake();
 
-    //Act & Assert
+    //Act
+    [$arrData] = getValidPaddleWebhookRequest();
+    [$requestBody, $requestHeaders] = generateValidSignedPaddleWebhookRequest($arrData);
+    postJson('webhooks', $requestBody, $requestHeaders);
+
+    //Assert
+    Queue::assertPushed(HandlePaddlePurchaseJob::class);
 });
 
 it('does not dispatch a job for invalid paddle request', function () {
     //Arrage
+    Queue::fake();
 
-    //Act & Assert
+    //Act
+    post('webhooks', []);
+
+    //Assert
+    Queue::assertNotPushed(HandlePaddlePurchaseJob::class);
 });
 
 
