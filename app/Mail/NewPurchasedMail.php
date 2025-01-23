@@ -29,7 +29,7 @@ class NewPurchasedMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.new-purchased',
+            markdown: 'emails.new-purchased',
         );
     }
 
